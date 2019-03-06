@@ -1,53 +1,74 @@
 /*==========  Mobile First Method  ==========*/
 
-    /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
 
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 425px) {
+    .content .debora{
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%,-50%);
     }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-
+    .content .wishing{
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        transform: translate(-50%,-50%);
+        z-index: 2;
     }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-
+    .kvitu-one{
+        position: absolute;
+        top: 60%;
+        left: -25px;
+        transform: translate(-50%,-50%);
+        z-index: 3;
+        height: 300px !important;
     }
+}
 
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
 
-    }
-
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-
-    }
-
-    /*==========  Non-Mobile First Method  ==========*/
-
-    /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-
-    }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
-
-    }
-
-    /* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
-
-    }
+}
